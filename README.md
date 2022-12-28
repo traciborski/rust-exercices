@@ -6,4 +6,5 @@ https://google.github.io/comprehensive-rust
 
 ## running 
 
-rustc <FILE> -o main && ./main   
+clear && rustc <FILE> --test -o output.o && ./output.o
+clear && rustc <FILE> --test -o output.o && ./output.o
